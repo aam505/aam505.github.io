@@ -6,12 +6,22 @@ body{
   color: $text-color;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1{
+  font-family: $secondary-font;
+  font-weight: 600;
+  color: $text-color-light;
+}
+
+
+h2, h3, h4, h5, h6{
   font-family: $secondary-font;
   font-weight: 600;
   color: $text-color-dark;
 }
 
+h6.hero {
+  color: $text-color-light;
+}
 p{
   font-size: 16px;
   color: $text-color;

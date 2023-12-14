@@ -8,14 +8,17 @@ body {
 
 .section-title{
   margin-bottom: 70px;
+  
   @include desktop{
     text-align: center;
   }
   h2{
-    font-weight: 300;
+    font-weight: 100;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 15px;
+    
+    
     @include desktop{
       font-size: 40px;
     }

@@ -1,6 +1,6 @@
 baseURL       = "http://andreeamuresan.com"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "AAM | XR Interaction Design"
 theme         = "roxo-hugo"
 summarylength = 25
 
@@ -20,29 +20,25 @@ summarylength = 25
     url     = "portfolio"
     weight  = 3
   [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
-    weight  = 4
-  [[menu.nav]]
     name    = "Get in touch"
     url     = "contact"
     weight  = 5
 
 # Site Params
 [params]
-  logo = "images/logo.png"
-  logo_footer = "images/logo-footer.png"
+  logo = "images/logo-dark.png"
+  logo_footer = "images/logo-light.png"
   favicon_icon = "images/favicon.ico"
   favicon_shortcut_icon = "images/favicon.png"
   custom_stylesheets = []   # [ "scss/my_1.scss", "scss/my_2.scss" ]
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
-  author = "StaticMania"
+  description = "Andreea Muresan | XR Interaction Design"
+  author = "AndreeaMuresan"
   # Google Analitycs
   googleAnalitycsID = "Your ID"
   # We're using formspree.io for form handling, paste your formspree url below
-  fabform  = "https://fabform.io/f/USAg2Jl"
+  fabform  = "https://fabform.io/f/qorR5ay"
 
   # Contact Form
   [params.contactForm]
@@ -54,11 +50,11 @@ summarylength = 25
     send_message                  = "Send Message"
 
     [[params.contactForm.projectType]]
-      value = "gd"
-      title  = "Graphics Design"
+      value = "rs"
+      title  = "Research"
     [[params.contactForm.projectType]]
-      value = "wd"
-      title  = "Web Design"
+      value = "ind"
+      title  = "Industry"
   
   # Navbar Action Button
   [params.navAction]
@@ -70,29 +66,27 @@ summarylength = 25
   # Banner Section
   [params.banner]
     enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "We’re a Design Studio That Belies In the Great Ideas"
-    tagline               = "WE WORK HARD, WE PLAY HARD"
-    primary_button        = "See Our Works"
+    background_image      = "images/backgrounds/curly-hair-blacked-logo1.png"
+    heading               = "I'm an XR Interaction Designer"
+    tagline               = "Hello, I'm Andreea! I'm a UI/UX VR researcher, writer, illustrator, but above all else, "
+    primary_button        = "See My Projects"
     primary_button_url    = "portfolio"
-    secondary_button      = "Connect with Us"
+    secondary_button      = "Connect "
     secondary_button_url  = "contact"
 
-  [params.blog]
-    read_more             = "read more"
 
   [params.portfolio]
     enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+    title     = "MY RECENT WORKS"
+    subtitle  = "I have over three years of experience conceptualizing and developing XR apps. I focus on hand-tracking experiences that serve as the building blocks of future interfaces. Here are some examples:"
     view_project = "view project"
     more_works = "MORE WORKS"
     scroll_down = "scroll down"
 
   [params.call_to_action]
-    enable              = true
-    background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
+    enable              = false
+    background_image    = "images/backgrounds/footer-lights.png"
+    title               = ""
     primary_button      = "Submit Query"
     primary_button_url  = "contact"
     secondary_button    = "Not Convinced"
@@ -103,21 +97,17 @@ summarylength = 25
     # Footer Contact Info
     [params.footer.contactInfo]
       title   = "Contact Info"
-      address = "713 Elmwood St.<br>Prior Lake, MN 55372"
-      phone   = "409-896-1444"
-      email   = "info@roxo.co"
+      address = "Copenhagen, <br>Denmark"
+      email   = "andreea.muresan505@gmail.com"
       # Footer Sitemap
       [params.footer.sitemap]
         title   = "Sitemap"
         [[params.footer.sitemap.link]]
-          name = "About Company"
+          name = "About"
           url  = "about"
         [[params.footer.sitemap.link]]
           name = "Projects"
           url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
         [[params.footer.sitemap.link]]
           name = "Contact"
           url  = "contact"
@@ -125,20 +115,23 @@ summarylength = 25
       [params.footer.social]
         title   = "Social Media"
         [[params.footer.social.link]]
-          name = "Medium"
-          url  = "#"
+          name = "Google Scholar"
+          url  = "https://scholar.google.dk/citations?user=ZKUNLoUAAAAJ&hl=en&authuser=1"
         [[params.footer.social.link]]
-          name = "Behance"
-          url  = "#"
+          name = "LinkedIn"
+          url  = "https://www.linkedin.com/in/aam505/"
         [[params.footer.social.link]]
-          name = "Dribbble"
-          url  = "#"
+          name = "GitHub"
+          url  = "https://github.com/aam505"
         [[params.footer.social.link]]
-          name = "Instagram"
-          url  = "#"
+          name = "Twitter/X"
+          url  = "https://twitter.com/andreeam505"
+        [[params.footer.social.link]]
+          name = "YouTube"
+          url  = "https://www.youtube.com/channel/UCASIPWR-f4pmDsiSCU4Wrbg"
       # Footer Service
       [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
+        title       = "Dedicated to:"
+        description = "enhancing workplace experiences through user-centered virtual and augmented reality solutions."
       [params.footer.back_to_top]
         description = "I want to <br> visit again"
