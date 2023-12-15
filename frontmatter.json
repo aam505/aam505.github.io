@@ -42,6 +42,45 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "weight",
+          "name": "weight",
+          "type": "number"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "category",
+          "name": "category",
+          "type": "categories"
+        },
+        {
+          "title": "project_images",
+          "name": "project_images",
+          "type": "choice",
+          "choices": [
+            "images/projects/project-details-image-one.jpg",
+            "images/projects/project-details-image-two.jpg"
+          ]
+        },
+        {
+          "title": "heading",
+          "name": "heading",
+          "type": "string"
+        },
+        {
+          "title": "form_heading",
+          "name": "form_heading",
+          "type": "string"
         }
       ]
     }
@@ -51,41 +90,31 @@
   "frontMatter.content.pageFolders": [
     {
       "path": "[[workspace]]/archetypes",
-      "title": "archetypes",
-      "originalPath": "[[workspace]]/archetypes"
-    },
-    {
-      "path": "[[workspace]]/content/blog",
-      "title": "blog",
-      "originalPath": "[[workspace]]/content/blog"
+      "title": "archetypes"
     },
     {
       "path": "[[workspace]]/content/portfolio",
-      "title": "portfolio",
-      "originalPath": "[[workspace]]/content/portfolio"
+      "title": "portfolio"
     },
     {
       "path": "[[workspace]]/themes/roxo-hugo/exampleSite/content/blog",
-      "title": "blog",
-      "originalPath": "[[workspace]]/themes/roxo-hugo/exampleSite/content/blog"
+      "title": "blog"
     },
     {
       "path": "[[workspace]]/themes/roxo-hugo/exampleSite/content/about",
-      "title": "about",
-      "originalPath": "[[workspace]]/themes/roxo-hugo/exampleSite/content/about"
+      "title": "about"
     },
     {
       "path": "[[workspace]]/content/about",
-      "title": "about",
-      "originalPath": "[[workspace]]/content/about"
+      "title": "about"
     },
     {
       "path": "[[workspace]]/themes/roxo-hugo/exampleSite/content/contact",
-      "title": "contact",
-      "originalPath": "[[workspace]]/themes/roxo-hugo/exampleSite/content/contact"
+      "title": "contact"
     },
     {
-      "path": "[[workspace]]/themes/roxo-hugo"
+      "path": "[[workspace]]/themes/roxo-hugo",
+      "title": "roxo-hugo"
     }
   ],
   "frontMatter.content.autoUpdateDate": false,

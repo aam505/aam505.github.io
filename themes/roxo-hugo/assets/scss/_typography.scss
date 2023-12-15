@@ -19,6 +19,14 @@ h2, h3, h4, h5, h6{
   color: $text-color-dark;
 }
 
+
+h1.light{
+  color: $text-color-light;
+}
+h1.dark{
+  color: $text-color-dark;
+}
+
 h6.hero {
   color: $text-color-light;
 }

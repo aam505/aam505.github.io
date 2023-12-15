@@ -1,29 +1,23 @@
 ---
-title: "VR Fails 2"
+title: "VR Fails: Using YouTube to design for VR in the home"
 weight: 2
 date: 2019-12-23T15:56:43+06:00
 type: portfolio
-image: "images/projects/project-thumb-two.jpg"
-category: ["PRODUCT DESIGN"]
-project_images: ["images/projects/project-details-image-one.jpg", "images/projects/project-details-image-two.jpg"]
+image: "images/projects/vrf/vr-fails-banner.png"
+category: ["Interaction Conceptualizing and Sketching"]
+project_images: [""]
 ---
 
-The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.
+
+_________________
+This project was published as a *conference* article in CHI '21 (he premier conference on
+human-computer interaction), entitled *Bad Breakdowns, Useful Seams, and Face Slapping: Analysis of VR Fails on YouTube*. Find the whole paper [here](https://dl.acm.org/doi/10.1145/3411764.3445435 "acm"). The article received an Honorable Mention Award (given to the top 5% of submitted papers), a mark of the reported research's excellence. This article represents a
+significant contribution to the state-of-the-art as it is the first research of its kind to use this type of real-world data source (VR Fails on YouTube) to analyze VR interactions, behaviors, and usage patterns.
+_________________
 
 
-The watch has the following features:
-
-Time and date displayed on the screen. Current time is in large numbers, date is in small numbers above it.
-
-Light: Pressing the light button on the side of the watch activates a light while the button is pressed. Pressing and holding that button for 3 seconds turns on the light and keeps it on, until the button is held again for 3 seconds or up to 2 hours. After 2 hours, it will automatically turn off.
-
-Alarm. A daily alarm may be set for a given time. The alarm may be enabled or disabled. When the alarm is enabled and the alarm time is reached, the watch will beep fast for 5 seconds, then slowly for 30 seconds, then fast for another 5 seconds. Pressing any button stops the alarm sound (in addition to performing its normal function).
-
-Timer. Timer mode shows a count-up timer that starts at 00:00. When the timer is started, it counts up. Pressing the start/stop button will pause the timer, pressing it again continues counting up. Pressing and holding the button for 3 seconds resets the timer to 00:00 and stops counting.
-
-Mystery answer. After entering this mode, the screen initially displays “ask now”. The user may ask a yes-or-no question aloud and press the start/stop button, this will display a randomly selected answer that is one of the following: “yeah”, “yeah right”, “no”, “no doubt”, “keep trying”, “keep dreaming”. Whenever the display has more than one word, only one word is displayed for 2 seconds, then the other word is displayed for 2 seconds, alternately. The answer is displayed until the user leaves this mode, or he/she presses start/stop again for a new answer. 
+Virtual reality (VR) is increasingly used in complex social and physical settings outside of the lab. However, not much is known about how these settings influence use, nor how to design for them. We analyse 233 YouTube videos of VR Fails to: (1) understand when breakdowns occur, and (2) reveal how the seams between VR use and the social and physical setting emerge. The videos show a variety of fails, including users flailing, colliding with surroundings, and hitting spectators. They also suggest causes of the fails, including fear, sensorimotor mismatches, and spectator participation. We use the videos as inspiration to generate design ideas. For example, we discuss more flexible boundaries between the real and virtual world, ways of involving spectators, and interaction designs to help overcome fear. Based on the findings, we further discuss the ‘moment of breakdown’ as an opportunity for designing engaging and enhanced VR experiences. 
 
 
-Note: these strings are for the English version of the watch, we will need to use completely different strings in other countries without reprogramming the logic of the watch.
-
-The user may cycle among all modes (date/time, timer, mystery answer) by pressing the mode button.
+### The gist of it
+{{< youtube i-opzNeEDG4 >}} --
