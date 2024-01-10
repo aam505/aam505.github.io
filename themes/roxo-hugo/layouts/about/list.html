@@ -39,6 +39,26 @@
         </ul>
       </div>
     </div>
+    <br>
+    
+    <div class="row">
+      {{ with .Params.tools_title }}
+      <div class="col-md-5">
+        <div class="expertise_title">
+          <h2>{{ . }}</h2>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-md-6">
+        <ul class="site-expertise-list">
+          {{ range .Params.tools_sectors }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+
+
   </div>
 </section>
 

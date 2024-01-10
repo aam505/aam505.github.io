@@ -4,7 +4,7 @@ weight: 7
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
 image: "images/projects/chatbot-banner.png"
-category: ["User Study, Diary Study"]
+category: ["Chatbot, Diary Study"]
 project_images: ["images/projects/chat-bot.png"]
 ---
 

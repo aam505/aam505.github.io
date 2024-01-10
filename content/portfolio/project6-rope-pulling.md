@@ -1,5 +1,5 @@
 ---
-title: "Rope-pulling XR"
+title: "XR Rope-pulling"
 weight: 6
 date: 2019-12-23T20:56:42+06:00
 type: portfolio
